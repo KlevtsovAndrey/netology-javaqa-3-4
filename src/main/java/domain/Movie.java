@@ -6,7 +6,10 @@ public class Movie {
     private String title;
     private String genre;
 
-    public Movie(int id){
+    public Movie(int id, String imgUrl, String title, String genre) {
         this.id = id;
+        this.imgUrl = imgUrl;
+        this.title = title;
+        this.genre = genre;
     }
 }
